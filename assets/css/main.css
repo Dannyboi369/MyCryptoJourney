@@ -2767,6 +2767,10 @@ input, select, textarea {
 			.tiles article h3 {
 				font-size: 1.75em;
 			}
+			.tiles article p {
+				letter-spacing: 0.15em;
+				text-transform: none;
+			}
 
 				.tiles article h3 a:hover {
 					color: inherit !important;
@@ -3426,6 +3430,17 @@ input, select, textarea {
 			font-size: 3.25em;
 		}
 
+		#banner h1 .brandcolor-blue{
+			color: #ffffff; /* crypto blue */
+			text-shadow: 0 0 12px rgba(155, 241, 255, 0.35);
+		}
+
+		#banner h1 .brandcolor-yellow{
+			color: #e2c74e; /* crypto blue */
+			text-shadow: 0 0 12px rgba(191, 194, 13, 0.35);
+		
+		}
+
 		#banner > .inner {
 			-moz-transition: opacity 1.5s ease, -moz-transform 0.5s ease-out, -moz-filter 0.5s ease, -webkit-filter 0.5s ease;
 			-webkit-transition: opacity 1.5s ease, -webkit-transform 0.5s ease-out, -webkit-filter 0.5s ease, -webkit-filter 0.5s ease;
@@ -3461,7 +3476,7 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				margin: 0 0 2em 0;
+				margin-bottom: 1em;
 			}
 
 				#banner > .inner .content > * {
@@ -3476,8 +3491,8 @@ input, select, textarea {
 				#banner > .inner .content p {
 					font-size: 0.7em;
 					font-weight: 600;
-					letter-spacing: 0.25em;
-					text-transform: uppercase;
+					letter-spacing: 0.15em;
+					
 				}
 
 		#banner.major {
@@ -3950,3 +3965,10 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+#ps-note{
+	font-size: 12px;        /* Réduit la taille du texte */
+  	color: rgba(255, 255, 255, 0.6); /* Blanc plus doux */
+  	margin-top: 0px;
+	
+}
